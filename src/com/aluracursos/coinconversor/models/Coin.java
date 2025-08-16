@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package com.aluracursos.coinconversor.models;
+
 import java.util.Map;
 
 public record Coin(String result,

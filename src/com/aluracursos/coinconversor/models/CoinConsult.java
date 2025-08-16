@@ -1,3 +1,5 @@
+package com.aluracursos.coinconversor.models;
+
 import com.google.gson.Gson;
 
 import java.net.URI;
