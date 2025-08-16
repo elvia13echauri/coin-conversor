@@ -21,7 +21,7 @@ public class TextMenu {
                 8 - Peso Mexicano ==> Dolar
                 9 - Salir
                 
-                Escribe el número de la opción elegida:
+                Escribe el número de la conversión que deseas hacer:
                 """);
     }
 
@@ -31,34 +31,45 @@ public class TextMenu {
                 System.out.println("""
                         $ %.2f Dolares = $ %.2f Pesos Argentinos
                         """.formatted(value,result));
+                break;
             case 2:
                 System.out.println("""
                         $ %.2f Pesos Argentinos = $ %.2f Dolares
                         """.formatted(value,result));
+                break;
             case 3:
                 System.out.println("""
                         $ %.2f Dolares = $ %.2f Reales Brasileños
                         """.formatted(value,result));
+                break;
             case 4:
                 System.out.println("""
                         $ %.2f Reales Brasileños = $ %.2f Dolares
                         """.formatted(value,result));
+                break;
             case 5:
                 System.out.println("""
                         $ %.2f Dolares = $ %.2f Pesos Colombianos
                         """.formatted(value,result));
+                break;
             case 6:
                 System.out.println("""
                         $ %.2f Pesos Colombianos = $ %.2f Dolares
                         """.formatted(value,result));
+                break;
             case 7:
                 System.out.println("""
                         $ %.2f Dolares = $ %.2f Pesos Maxicanos
                         """.formatted(value,result));
+                break;
             case 8:
                 System.out.println("""
                         $ %.2f Pesos Mexicanos = $ %.2f Dolares
                         """.formatted(value,result));
+                break;
         }
+    }
+    public void askForValue () {
+        System.out.println("Ingresa el valor a convertir");
     }
 }

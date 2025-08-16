@@ -9,8 +9,8 @@ public class Conversor {
         this.countryToCoin = countryToCoin;
     }
 
-    public double calculate(Coin consultCoin, double valu){
+    public double calculate(Coin consultCoin, double value){
         double result = consultCoin.conversion_rates().get(countryToCoin);
-        return result * valu;
+        return result * value;
     }
 }
