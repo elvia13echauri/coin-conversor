@@ -19,7 +19,8 @@ public class TextMenu {
                 6 - Peso Colombiano ==> Dolar
                 7 - Dolar ==> Peso Mexicano
                 8 - Peso Mexicano ==> Dolar
-                9 - Salir
+                9 - Mostrar todas las consultas
+                0 - Salir
                 
                 Escribe el número de la conversión que deseas hacer:
                 """);
